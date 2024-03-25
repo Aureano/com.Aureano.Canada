@@ -1,0 +1,262 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body
+{
+  background: whitesmoke;
+  /* line-height:1em; */
+}
+header
+{
+ display: flex;
+ flex-direction: column;
+}
+.flag
+{ 
+/* border: 1px solid red;*/
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left:170px;
+  position: relative;
+  
+  
+  
+}
+.flag_lien
+{
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 195px;
+    margin-top:15px ;
+   
+}
+.flag_lien a
+{
+  color: rgb(54, 54, 109);
+}
+
+.flag_lien a:hover
+{
+color: blue;
+}
+.blue
+{
+ /* border: 1px solid yellow; */
+ height:52px;
+ display: flex;
+ justify-content: center;
+ /* justify-content: space-evenly; */
+ gap: 0px;
+ background: rgb(71, 71, 138);
+}
+.blue a
+{
+    border-left: 1px solid rgb(138, 138, 240);
+    border-right: 1px solid rgb(138, 138, 240);
+    padding-left: 160px;
+    padding-right: 140px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 1.1em;
+
+}
+.blue a:hover
+{
+  text-decoration: underline;
+  background: rgb(51, 51, 163);
+}
+.accueil
+{
+ /* border: 1px solid black;  */
+ height: 30px;
+ padding-left: 220px;
+ padding-top: 5px;
+}
+.welcome
+{
+ /* border: 1px solid green; */
+ height:70px ;
+ margin-left: 220px;
+ margin-right: 220px;
+ padding-top: 24px;
+ border-bottom: 2px solid rgb(168, 58, 58);
+ margin-bottom:20px;
+ }
+ .real
+ {
+    /* border: 1px solid yellowgreen; */
+    height:327px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: white;
+    border-radius:3px;
+   
+    
+    
+ }
+ .left
+ {
+    /* border: 1px solid red; */
+    position: absolute;
+    height: inherit;
+    width:67% ;
+    left: 0;
+    padding-top:20px;
+    
+    
+  }
+  label
+  {
+    font-size:1.1em;
+  }
+ 
+ .button
+ {
+   display: flex;
+   justify-content: center;
+   gap: 7px;
+  
+ }
+ .button input
+ {
+   height:34px ;
+   width:180px;
+   border: none;
+   cursor: pointer;
+   border-radius:4px;
+   font-size: 0.9em;
+ }
+ .button input[type=submit]
+ {
+   color:white;
+   background: rgb(58, 58, 202);
+ }
+ .button input[type=submit]:hover
+ {
+   background: rgb(88, 88, 199);
+ }
+  
+  .button input[type=reset]
+  {
+    color: rgb(78, 78, 207);
+  }
+  .button input[type=reset]:hover
+  {
+     background:whitesmoke;
+  }
+ .link
+ {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  font-size: 1.1em;
+  
+ }
+ .link a:hover
+ {
+  text-decoration: none;
+  color: blue;
+ }
+ .connecter
+ {
+  padding-left: 25px;
+  line-height: 0.7;
+ }
+ .connecter input
+ {
+   width:690px;
+   height:30px;
+   outline: none;
+   border: 1px solid rgb(187, 176, 176);
+   border-radius:5px;
+   padding-left:6px;
+ }
+ .connecter input:focus
+ {
+   border:1px solid rgb(86, 86, 211);
+ }
+
+ .right
+ {
+    
+   border-left:1px solid rgb(189, 178, 178);
+   position: absolute;
+   height: 287px;
+   margin-top: 20px;
+   width:33%;
+   right: 0;
+   /* padding-top: 13px; */
+   padding-left: 20px;
+   font-size:1.1em;
+   
+ }
+ .right input
+ {
+   height:34px;
+   width:180px;
+   border: none;
+   border-radius:4px;
+   cursor:pointer;
+   background: rgb(58, 58, 202);
+   color: white;
+   font-size:0.9em;
+   margin-left: 70px;
+
+ }
+ .right input:hover
+ {
+  background: rgb(88, 88, 199);
+ }
+ .right a
+ {
+  color: blue;
+ }
+ .right a:hover
+ {
+  text-decoration:none;
+ }
+ .enbas
+ {
+  /* border:1px solid red; */
+  height:auto ;
+  margin-left:220px ;
+  margin-right:220px ;
+  margin-bottom: 10px;
+  font-size:1.1em;
+  text-align: center;
+ }
+ .enbas a
+ {
+  text-decoration: none;
+  border:1px solid black;
+  padding-left:60px;
+  padding-right:60px;
+  padding-top:7px ;
+  padding-bottom:7px ;
+  border-radius:5px;
+  background: rgb(238, 228, 228);
+  color:rgb(51, 47, 47);
+  border-right: 8px solid red;
+  }
+  .enbas a:hover
+  {
+    background: whitesmoke;
+  }
+
+ 
+ 
